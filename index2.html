@@ -3,20 +3,24 @@
 <style>
 
 body {
-	background-color: #a0ccd7;
+	background-color: #FEFEFA;
 	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
-#wrap_table{
-	width: 780px;
-	margin-left: auto ;
-	margin-right: auto ;
-	margin-top: 50px;
+a {
+	text-decoration: none;
+	color: #274C83;
+	font-weight: bold;
+}
+
+.titlebar{
+	background-color: #D7E1E3;
 }
 
 
-
-#title { 
+#title{ 
 		color: #353839;
 		font-size: 40px;
 		position: relative;
@@ -29,24 +33,27 @@ body {
 	
 .nav_bar {
 	background-color: #353839;
-	color: white;
+	color: #FEFEFA;
 	font-weight: bold;
 	text-align: right;
 	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	height: 30px;
 }
 	.nav_bar ul {
+		margin: 0px;
 		padding: 5px;
-		margin: 0;
 	}
 
 	.nav_bar li {
 		display: inline;
-		padding: 5px;
+		padding: 10px;
 		margin: 0px;
 	}
 	
 	.nav_bar li:hover {
-		background-color: #a0ccd7;
+		background-color: #D7E1E3;
 		color: black;
 	}
 	
@@ -54,6 +61,7 @@ body {
 #content{
 	background-color: #FEFEFA;
 	padding: 10px;
+	margin-bottom:50px;
 }	
 
 #impt_info {
@@ -61,18 +69,30 @@ body {
 	height: 200px;
 	width: 250px;
 	margin: 20px;
-	margin-top: 60px;
 	padding: 15px;
-	float: right;
-	background-color: #a0ccd7;
+	float:right;
+	background-color: #D7E1E3;
 }
 
-#footer{
+
+.footer{
 	text-align:center;
-	color: white;
+	color: #FEFEFA;
 	background-color: #353839;
+	padding: 5px;	
+	width: 100%;
+	height: 20px;
+	position:fixed;
+		bottom:0;
+		left:0;
+	margin-top: 20px;
+	text-align: center;
 	padding: 5px;
+	box-shadow: 20px -5px 20px #AAAAAA; 
+	font-size: 0.8em;
+		
 }	
+
 
 #img_logo {
 position: absolute;
@@ -85,10 +105,11 @@ position: absolute;
 </head>
 
 
-<div id="wrap_table">
-<div id="img_logo"><img width="150px" src="http://exercise.dreustace.com/alliance_logo.png"/></div>
-<div class="spacer"></div>
-<div id="title">Alliance Chiropractic Clinic</div>
+
+<div id="img_logo"><img width="150px" src="alliance_logo2.png"/></div>
+<div class="titlebar"><div class="spacer"></div>
+<div id="title">ALLIANCE CHIROPRACTIC CLINIC</div>
+</div>
 <div class="nav_bar">
 <ul>
 <li>New Patients  </li>
@@ -98,15 +119,11 @@ position: absolute;
 <li> Contact Us </li>
  </ul>
  </div>
- <div id="image"><img width = "780px" height=150px src="http://exercise.dreustace.com/health.jpg"/></div>
+ <div id="image"><img width = "100%"  src="http://exercise.dreustace.com/health.jpg"/></div>
  <div id="content">
-Our vision is simply to help and empower people to help themselves live happier, healthier, and more productive lives through proper care of their structure, diet and nervous system. <br> 
-		<br> 
-		If you have a bad back, inflamed joints or you are just unhappy about your body shape, you are not alone. Fortunately, more and more people have taken advantage of modern chiropractic care to give them the body that they want and rid them of long standing debilitating problems with their spine and joints. 
-<br>
-		Our clinic director, Dr. Carl Eustace is one of approximately 5,000 chiropractic physicians in Canada whose services are covered by all major insurance companies and the Workplace Health Safety and Compensation Commission. No medical referral is necessary to see a chiropractic physician.  
-
-
+ 
+ <!-- Beginning of Content-->
+ 
 <div id = "impt_info">
 
 <!-- Small Info Box Section -->
@@ -120,14 +137,21 @@ Located at 92 Lemarchant Road.
 <p>
 <a href="">Map and Schedule</a>
 
+<!-- end impt info div -->
+</div> 
 
-</div> <!-- end impt info div -->
-
-
-
+<h2>Serving the St. John's downtown area since 1985. </h2>
+<p>
+Our vision is simply to help and empower people to help themselves live happier, healthier, and more productive lives through proper care of their structure, diet and nervous system. <br> 
+		<br> 
+		If you have a bad back, inflamed joints or you are just unhappy about your body shape, you are not alone. Fortunately, more and more people have taken advantage of modern chiropractic care to give them the body that they want and rid them of long standing debilitating problems with their spine and joints. 
+<p>
+		Our clinic director, Dr. Carl Eustace is one of approximately 5,000 chiropractic physicians in Canada whose services are covered by all major insurance companies and the Workplace Health Safety and Compensation Commission. No medical referral is necessary to see a chiropractic physician.  
+ 
+<!-- End of Content -->		
 </div>
-<div id="footer">
-Return to top of page | Last Updated September 13, 2013.
+
+<div class="footer">
+Return to top of page | Last updated March 12 2014.
 </div>
 
-</div>
